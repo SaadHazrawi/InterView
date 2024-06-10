@@ -1,0 +1,50 @@
+::root {
+  --primary-color: #039c6c;
+}
+
+.btn-logout {
+  cursor: pointer;
+}
+.btn-logout:hover img {
+  filter: brightness(0) saturate(100%) invert(35%) sepia(30%) saturate(752%)
+    hue-rotate(116deg) brightness(91%) contrast(85%);
+}
+
+.btn-logout:hover .logout-txt {
+  color: #039c6c;
+}
+.ActiveHeader {
+  color: white;
+  background-color: #039c6c;
+}
+.ActiveHeader span{
+    color: white;
+  background-color: #039c6c;
+}
+.ActiveHeader img {
+  filter: brightness(0) invert(1);
+}
+
+.navRouter:hover img {
+  filter: brightness(0) invert(1);
+}
+.navRouter img {
+    transition: filter 0.3s ease;
+}
+.navRouter:hover {
+    color: white;
+    background-color: #039c6c;
+}
+.navRouter {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 15px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.convertWSvgToB{
+    filter: brightness(1) invert(1);;
+}
+.nav-item {
+    font-size: 14px;
+}

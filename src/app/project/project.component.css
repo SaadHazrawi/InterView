@@ -1,0 +1,7 @@
+.button-footer-card{
+    border-radius: 15px 15px 15px 15px;
+    padding: 10px 30px;
+}
+.btn-footer-card:hover img{
+    filter: brightness(0) invert(1);
+}
