@@ -1,3 +1,9 @@
+# If you want download this project you have a nodeJs and angular cli 15
+# 1-download nodejs 
+# 2-download this project in folder after that
+#  2-1 write this command in your cmd
+    npm install @angular/cli@15 -g
+    npm install
 # InterView
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
