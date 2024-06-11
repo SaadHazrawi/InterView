@@ -1,6 +1,6 @@
 export interface IProduct{
     id:number;
     title:string;
-    categorey:string;
+    category:string;
     image:string;
 }

@@ -22,7 +22,10 @@ import { NotFoundComponent } from './not-found/not-found.component';
     HttpClientModule,
     RouterModule.forRoot([
       { path: 'project', component: ProjectComponent },
-      {path: 'notFound', component: NotFoundComponent},
+      {path: 'transaction', component: NotFoundComponent},
+      {path: 'news', component: NotFoundComponent},
+      {path: 'beneficiary', component: NotFoundComponent},
+      {path: 'mangesuser', component: NotFoundComponent},
       { path: '', redirectTo: 'project', pathMatch: 'full' },
       { path: '**', redirectTo: 'project', pathMatch: 'full' }
     ]),

@@ -1,7 +1,26 @@
-.button-footer-card{
-    border-radius: 15px 15px 15px 15px;
-    padding: 10px 30px;
+.button-footer-card-del {
+  border-radius: 15px 15px 15px 15px;
+  padding: 10px 30px;
 }
-.btn-footer-card:hover img{
-    filter: brightness(0) invert(1);
+.button-footer-card-del:hover img {
+  filter: brightness(0) invert(1);
+}
+.button-footer-card-mange {
+  border-radius: 15px 15px 15px 15px;
+  padding: 10px 30px;
+}
+.button-footer-card-mange:hover img {
+  filter: brightness(0) invert(1);
+}
+.product-cate {
+  padding: 5px;
+  z-index: 10;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  color: rgb(97, 97, 97);
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  font-size: 13px;
+  font-weight: 500;
 }
